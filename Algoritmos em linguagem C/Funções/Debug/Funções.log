@@ -1,0 +1,8 @@
+﻿  Funcao.cpp
+C:\Users\pc\Documents\Visual Studio 2019\Alagoritmos\Funções\Funcao.cpp(17,21): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+C:\Users\pc\Documents\Visual Studio 2019\Alagoritmos\Funções\Funcao.cpp(21,21): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+C:\Users\pc\Documents\Visual Studio 2019\Alagoritmos\Funções\Funcao.cpp(25,21): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+C:\Users\pc\Documents\Visual Studio 2019\Alagoritmos\Funções\Funcao.cpp(65,22): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+C:\Users\pc\Documents\Visual Studio 2019\Alagoritmos\Funções\Funcao.cpp(70,22): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+C:\Users\pc\Documents\Visual Studio 2019\Alagoritmos\Funções\Funcao.cpp(74,22): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+  Funções.vcxproj -> C:\Users\pc\Documents\Visual Studio 2019\Alagoritmos\Funções\Debug\Funções.exe
