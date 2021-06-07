@@ -11,16 +11,16 @@ Para a resposta SIM/NÃO. Utilize uma variável do tipo CHAR, que armazena S ou N,
 #include <stdlib.h>
 #include <locale.h>
 
-#define ENTREVISTADOS 150
+#define ENTREVISTADOS 3  //variavel constante
 
 int main()
 {
-	int sn, sexo, qtd_Yes = 0, qtd_No = 0, qtdS_Fem = 0, qtdN_Mas = 0;
+	int sn, sexo, qtd_Yes = 0, qtd_No = 0, qtdS_Fem = 0, qtdN_Mas = 0;		//Definição das variaveis
 	float porcent_Masc, porcent_Femi;
 
 	setlocale(LC_ALL, "portuguese");
 
-	for (int i = 0; i < ENTREVISTADOS; i++)
+	for (int i = 0; i <= ENTREVISTADOS; i++)		//Laço que vai se repetir 150 vezes
 	{
 		printf("Olá cliente %d. Qual seu sexo (1 - Masculino | 2 - Feminino) \n", i);
 		scanf_s("%d", &sexo);

@@ -41,7 +41,7 @@
 *.su
 *.idb
 *.pdb
-
+*.user
 # Kernel Module Compile Results
 *.mod*
 *.cmd
@@ -81,3 +81,4 @@ Algoritmos em linguagem C/Matrizes/.vs/Matrizes/v16/.suo
 *.db
 *.tlog
 *.lastbuildstate
+.vs/

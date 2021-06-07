@@ -15,14 +15,14 @@ Na tela, deve existir um MENU que pergunta ao usuário se ele deseja cadastrar um
 void menu();
 void cadastro(int idCliente, int conta[], float kw[], float total[]);
 void listar(int idCliente, int conta[], float kw[], float total[]);
-void maior(int idCliente, int conta[], float kw[], float total[]);
+void maior(int idCliente, int conta[], float kw[], float total[]);		//Prototipos das funcoes
 void menor(int idCliente, int conta[], float kw[], float total[]);
 void media(int idCliente, int conta[], float kw[], float total[]);
 void maior_170(int idCliente, int conta[], float kw[], float total[]);
 
 int main()
 {
-	int opcao, conta[TAM], idCliente = 0;
+	int opcao, conta[TAM], idCliente = 0;		//Defenicao das variaveis
 	float kw[TAM], total[TAM];
 	
 	setlocale(LC_ALL, "portuguese");
